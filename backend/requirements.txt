@@ -1,0 +1,27 @@
+# SecureVote — Python Backend Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+flask==3.0.3
+flask-cors==4.0.1
+flask-sqlalchemy==3.1.1
+
+# ── Authentication ────────────────────────────────────────────────────────────
+PyJWT==2.8.0
+werkzeug==3.0.3        # password hashing
+
+# ── Face Recognition ─────────────────────────────────────────────────────────
+deepface==0.0.93       # CNN face recognition (VGG-Face, ArcFace, Facenet)
+opencv-python==4.10.0.84
+numpy==1.26.4
+Pillow==10.4.0
+
+# ── Blockchain ────────────────────────────────────────────────────────────────
+web3==6.20.0           # Ethereum / Ganache interaction
+
+# ── Database ──────────────────────────────────────────────────────────────────
+SQLAlchemy==2.0.31
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+requests==2.32.3

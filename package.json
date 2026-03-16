@@ -1,0 +1,19 @@
+{
+  "name": "securevote",
+  "version": "1.0.0",
+  "description": "**Stack:** Python Flask + DeepFace + Web3.py + Ganache + React",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "dotenv": "^17.3.1",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.17"
+  }
+}

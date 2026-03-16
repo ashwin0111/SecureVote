@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hardhat / Smart Contracts
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+.openzeppelin/
+
+# Environment / Secrets (CRITICAL for Blockchain)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Python (if using for Facial Recognition/Liveness)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# IDE / OS Files
+.DS_Store
+.vscode/
+.idea/
+build/
+dist/
